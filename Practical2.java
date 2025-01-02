@@ -2,7 +2,7 @@ class Product
 {
     int productId;
     String productName;
-    double price;
+    Double price;
     static int count;
     Product()
     {
@@ -21,14 +21,14 @@ class Product
     }
     void displayProductInfo()
     {
-        System.out.println("ProducrId : "+productId);
-        System.out.println("ProductName : "+productName);
-        System.out.println("Product Price : "+price);
+        System.out.println("ProducrId :"+productId);
+        System.out.println("ProductName :"+productName);
+        System.out.println("Product Price :"+price);
     }
 }
 public class Practical2 
 {
-    public static void main(String[] args)
+    public static void main(String[]args)
     {
         Product product1=new Product(101,"Laptop",999.99);
         Product product2=new Product(202,"Smart Phone",499.95);
